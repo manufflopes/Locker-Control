@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    color: aquamarine;
+
+}
+main {
+    width: 80%;
+    color: blue;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+.locker img{
+    height: 400px;
+    
+
+}
+.locker {
+    background-color: black;
+    display: flex;
+    flex-direction:column;
+    min-width: 144px;
+    
+
+}
+.locker.open{
+    background: url("./imagens/lockeropen.jpg") no-repeat;
+    background-size: contain;
+    
+   
+
+}
+
+
+#lockers {
+    display: flex; 
+    flex-wrap: wrap;
+}
+.locker label{
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+}
